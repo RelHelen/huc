@@ -1,0 +1,10 @@
+ .user{
+  display: grid; 
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 2vw;
+  margin: 2rem;
+ }
+ .user>div{
+ border: 1px solid grey;
+ flex: 1 1 200px;
+ }
